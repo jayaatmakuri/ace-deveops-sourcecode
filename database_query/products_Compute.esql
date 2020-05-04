@@ -9,7 +9,7 @@ CREATE COMPUTE MODULE products_Compute
 		SET OutputRoot.XMLNSC.space1:root.space1:server = ExecutionGroupLabel;
 		SET OutputRoot.XMLNSC.space1:root.space1:part_number = '"part_number"=120';
 		SET OutputRoot.XMLNSC.space1:root.space1:product_name = '"product_name"=pencil';
-		SET OutputRoot.XMLNSC.space1:root.space1:quantity = '"quantity"=1000';
+		SET OutputRoot.XMLNSC.space1:root.space1:quantity = '"quantity"=100';
 		RETURN TRUE;
 	END;
 
